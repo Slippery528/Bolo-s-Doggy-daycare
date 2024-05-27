@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doggy Daycare</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" href="Fonts/H1/static/Oswald-ExtraLight.ttf" />
+
+    <script src="index.js" defer></script>
+    <!-- Import jQuery library for JavaScript functionality -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <header class="top-bar">
+      <div class="logo">
+        <img
+          src="Images/heading_Rottweiler_pup.jpg"
+          alt="Site Logo"
+          width="200"
+          height="200"
+        />
+      </div>
+      <h1>Bolo's Doggy Daycare</h1>
+      <nav>
+        <!-- Links to different sections/pages -->
+        <a href="index.html">Home</a>
+        <a href="services.html">Our Services</a>
+        <a href="about_us.html">About Us</a>
+
+        <img
+          src="Images/Bolo.png"
+          alt="Picture of Bolo"
+          width="200"
+          height="200"
+        />
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <img
+          src="Images/group-dogs-23378702.jpg"
+          alt="Large Breed dogs banner"
+          width="100%"
+          height="600px"
+        />
+        <h2>"Where Big Hearts and Big Paws Play Freely!"</h2>
+        <p>
+          Bolos Doggy Daycare is a haven tailored for our furry companions,
+          specifically designed with large breed dogs in mind. Nestled in the
+          heart of a bustling community, it offers a nurturing environment where
+          these majestic canines can thrive.
+        </p>
+        <p>
+          What sets Bolos apart is its inclusive approach, welcoming dogs
+          without the requirement of being neutered. This ethos stems from a
+          deep understanding of canine behavior and the belief that each dog
+          deserves to socialize and play freely.
+        </p>
+        <p>
+          Here, every wagging tail and playful bark is celebrated, creating a
+          vibrant atmosphere filled with joy and camaraderie. At Bolos, it's
+          more than just a daycare—it's a home away from home where big dogs can
+          roam, explore, and forge lasting friendships under the watchful eye of
+          dedicated caretakers.
+        </p>
+        <a href="about_us.html" class="learn-more-button">Learn More</a>
+      </section>
+
+      <section class="french-bulldog">
+        <img
+          src="Images/French Bulldog.jpg"
+          alt="French Bulldog sleeping"
+          width="500px"
+          height="500px"
+        />
+      </section>
+
+      <section>
+        <h2>Our Services</h2>
+        <div class="paragraphs-container">
+          <article class="paragraph-block">
+            <img
+              src="Images/Dog Grooming.png"
+              alt="Dog being groomed"
+              width="300px"
+              height="300px"
+              class="service-image"
+            />
+            <h3>Grooming</h3>
+            <p>
+              Our grooming services offer tailored care to keep your furry
+              friend looking and feeling their best. From luxurious baths to
+              breed-specific trims, our expert groomers provide gentle,
+              stress-free treatments. It's not just grooming—it's our commitment
+              to your dog's well-being and happiness.
+            </p>
+            <button
+              class="save-for-later-button"
+              data-id="grooming"
+              data-title="grooming"
+              data-image="Images/Dog Grooming.png"
+            >
+              Save for later
+            </button>
+            <form class="like-form" data-id="grooming">
+              <button type="submit">Like</button>
+              <span class="like-count">0</span> Likes
+            </form>
+          </article>
+          <article class="paragraph-block">
+            <img
+              src="Images/Dog Walking.png"
+              alt="Dog being walked"
+              width="300px"
+              height="300px"
+              class="service-image"
+            />
+            <h3>Walking</h3>
+            <p>
+              Bolos Daycare provides top-notch walking services for your beloved
+              canine companions. Our experienced walkers ensure that every
+              outing is not just a stroll, but an adventure tailored to your
+              dog's energy level and preferences. Whether it's a leisurely
+              neighborhood jaunt or an exhilarating romp through the park, our
+              walkers prioritize safety, exercise, and fun. With Bolos, your dog
+              will enjoy stimulating walks that keep them happy, healthy, and
+              wagging their tails with joy.
+            </p>
+            <button
+              class="save-for-later-button"
+              data-id="walking"
+              data-title="Walking"
+              data-image="Images/Dog Walking.png"
+            >
+              Save for later
+            </button>
+            <form class="like-form" data-id="walking">
+              <button type="submit">Like</button>
+              <span class="like-count">0</span> Likes
+            </form>
+          </article>
+          <article class="paragraph-block">
+            <img
+              src="Images/Dog Training.jpg"
+              alt="Dog being trained"
+              width="300px"
+              height="300px"
+              class="service-image"
+            />
+            <h3>Training</h3>
+            <p>
+              Bolos Daycare offers comprehensive training services to help your
+              dog reach their full potential. Our expert trainers employ
+              positive reinforcement techniques to teach essential obedience
+              commands, address behavioral issues, and foster a strong bond
+              between you and your furry friend. From puppy basics to advanced
+              skills, our personalized approach ensures that each training
+              session is tailored to your dog's unique needs and learning style.
+              With Bolos, you'll see remarkable progress and enjoy a harmonious
+              relationship with your well-trained companion.
+            </p>
+            <button
+              class="save-for-later-button"
+              data-id="training"
+              data-title="Training"
+              data-image="Images/Dog Training.jpg"
+            >
+              Save for later
+            </button>
+            <form class="like-form" data-id="dog training">
+              <button type="submit">Like</button>
+              <span class="like-count">0</span> Likes
+            </form>
+          </article>
+          <article class="paragraph-block">
+            <img
+              src="Images/Dog Socializing.avif"
+              alt="Dog Socialization"
+              width="300px"
+              height="300px"
+              class="service-image"
+            />
+            <h3>Socializing</h3>
+            <p>
+              Socialization is a key aspect of the experience offered to furry
+              friends. Through supervised play sessions, dogs have the
+              opportunity to interact with other dogs in a safe and controlled
+              environment. This socialization helps dogs build confidence, learn
+              proper behavior, and develop important social skills.
+              Additionally, trained staff members facilitate positive
+              interactions and ensure that all dogs are comfortable and having
+              fun. Overall, Bolos doggy daycare prioritizes socialization as a
+              vital component of promoting a happy and well-adjusted pet.
+            </p>
+            <button
+              class="save-for-later-button"
+              data-id="dog socializing"
+              data-title="Dog Socializing"
+              data-image="Images/Dog Socializing.avif"
+            >
+              Save for later
+            </button>
+            <form class="like-form" data-id="Socializing">
+              <button type="submit">Like</button>
+              <span class="like-count">0</span> Likes
+            </form>
+          </article>
+        </div>
+        <a href="services.html" class="services-button">Our Services</a>
+      </section>
+
+      <section class="testimonials">
+        <h2>What people are saying about us</h2>
+        <div id="testimonial-carousel" class="testimonials-container">
+          <article class="testimonial">
+            <blockquote>
+              <p>
+                "Bolos Doggy Daycare provides exceptional care for our furry
+                family members. Our dog always comes home happy and tired from a
+                day of fun and socialization with other dogs. Highly recommend!"
+              </p>
+            </blockquote>
+            <cite>- John Doe</cite>
+          </article>
+          <article class="testimonial">
+            <blockquote>
+              <p>
+                "We trust Bolos Doggy Daycare with our dog's well-being, and
+                they never disappoint! The staff is friendly, attentive, and
+                genuinely cares about the dogs. It's such a relief knowing our
+                pup is in good hands."
+              </p>
+            </blockquote>
+            <cite>- Jane Smith</cite>
+          </article>
+          <article class="testimonial">
+            <blockquote>
+              <p>
+                "Thanks to Bolos Doggy Daycare, our dog has become more
+                confident and sociable. The socialization opportunities provided
+                have made a significant difference in our dog's behavior and
+                happiness. We couldn't be happier!"
+              </p>
+            </blockquote>
+            <cite>- Emily W</cite>
+          </article>
+          <article class="testimonial">
+            <blockquote>
+              <p>
+                "Bolos Doggy Daycare goes above and beyond to ensure every dog
+                feels loved and cared for. The facilities are clean, spacious,
+                and equipped with everything dogs need for a fun day. I highly
+                recommend Bolos to any dog parent looking for top-notch daycare
+                services."
+              </p>
+            </blockquote>
+            <cite>- Mike S</cite>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

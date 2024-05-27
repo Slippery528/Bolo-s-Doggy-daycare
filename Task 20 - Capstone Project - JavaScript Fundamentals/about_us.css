@@ -1,0 +1,111 @@
+/* Styling for navigation */
+nav {
+  background-color: #ffbc04; /* Set background color to gold */
+  color: #fff; /* Set text color to white */
+  padding: 10px; /* Add padding around navigation links */
+  text-align: center; /* Center-align the navigation links */
+  font-family: "Montserrat", sans-serif; /* Use Montserrat font for navigation */
+  /* Add animation effect */
+  transition: background-color 0.3s ease-in-out;
+}
+nav a,
+.dropbtn {
+  color: #fff; /* Set link color to white */
+  text-decoration: none; /* Remove underline from links */
+  margin: 0 10px; /* Add margin between navigation links */
+  /* Add animation effect */
+  transition: color 0.3s ease-in-out;
+}
+nav a:hover,
+.dropdown:hover .dropbtn {
+  text-decoration: underline; /* Underline links on hover */
+  /* Add animation effect */
+  color: #f1f1f1; /* Change link color on hover */
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffbc04; /* Match the background color of the dropdown to the navigation bar */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  /* Add animation effect */
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.dropdown-content a {
+  float: none;
+  color: white; /* Set dropdown link color to white */
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1; /* Change background color on hover */
+  color: black; /* Change text color on hover */
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  /* Add animation effect */
+  opacity: 1;
+}
+
+/* Styling for main heading */
+h1 {
+  font-family: "Montserrat", sans-serif; /* Use Montserrat font for main heading */
+  text-align: center; /* Center-align the main heading */
+  font-size: 50px; /* Set font size to 50px */
+  margin-top: 60px; /* Add top margin of 60px */
+  /* Add animation effect */
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Styling for body */
+body {
+  background-color: #d2e3fc; /* Set background color for the entire page */
+}
+
+p {
+  font-family: "Montserrat", sans-serif; /* Use Montserrat font for paragraphs */
+  margin-top: 100px; /* Add top margin of 100px to paragraphs */
+  /* Add animation effect */
+  animation-name: slideInFromLeft;
+  animation-duration: 1s;
+}
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+li {
+  font-family: "Montserrat", sans-serif; /* Use Montserrat font for list items */
+  /* Add animation effect */
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}

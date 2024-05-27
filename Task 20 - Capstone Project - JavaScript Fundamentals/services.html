@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of the page -->
+    <title>Services</title>
+    <link rel="stylesheet" href="services.css" />
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav>
+      <!-- Links to different sections/pages -->
+      <a href="index.html">Home</a>
+      <a href="services.html">Our Services</a>
+      <a href="about_us.html">About Us</a>
+    </nav>
+
+    <!-- Main heading -->
+    <h1>What we offer</h1>
+
+    <!-- Table of services -->
+    <table>
+      <thead>
+        <tr>
+          <th>Service</th>
+          <th>Personnel</th>
+          <th>Days</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Dog Walking</td>
+          <td>Roman Reigns</td>
+          <td>Monday, Wednesday, Friday</td>
+        </tr>
+        <tr>
+          <td>Grooming</td>
+          <td>Daniel Cormier</td>
+          <td>Tuesday, Thursday, Saturday</td>
+        </tr>
+        <tr>
+          <td>Training</td>
+          <td>Zak George</td>
+          <td>Wednesday, Saturday</td>
+        </tr>
+        <tr>
+          <td>Socializing</td>
+          <td>Sidney Prescott</td>
+          <td>Monday, Friday</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Form for enquiries -->
+    <form action="submit_enquiry.php" method="post">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required /><br /><br />
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+      <label for="phone">Your Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required /><br /><br />
+      <label for="message">Enquiry Message/Comments:</label><br />
+      <textarea
+        id="message"
+        name="message"
+        rows="4"
+        cols="50"
+        required
+      ></textarea
+      ><br /><br />
+      <fieldset>
+        <legend>Where did you hear about us?</legend>
+        <input type="radio" id="linkedin" name="source" value="linkedin" />
+        <label for="linkedin">LinkedIn</label><br />
+
+        <input
+          type="radio"
+          id="word_of_mouth"
+          name="source"
+          value="word_of_mouth"
+        />
+        <label for="word_of_mouth">Word of Mouth</label><br />
+
+        <input
+          type="radio"
+          id="google_advert"
+          name="source"
+          value="google_advert"
+        />
+        <label for="google_advert">Google Advert</label><br />
+
+        <input type="radio" id="newspaper" name="source" value="newspaper" />
+        <label for="newspaper">Newspaper</label><br />
+
+        <input type="radio" id="flyer" name="source" value="flyer" />
+        <label for="flyer">Flyer</label><br />
+
+        <input type="radio" id="online" name="source" value="online" />
+        <label for="online">Online</label><br />
+
+        <input type="radio" id="other" name="source" value="other" />
+        <label for="other">Other</label><br />
+      </fieldset>
+      <!-- Submit button -->
+      <input type="submit" value="Submit" />
+
+      <!-- Contact information -->
+      <p>
+        Have questions or want to learn more about Bolos Doggy Daycare? Feel
+        free to reach out to us! You can
+        <a href="mailto:brett@bolosdoggydaycare.com">Email Us</a> directly We're
+        always happy to assist you and your furry friend.
+      </p>
+    </form>
+  </body>
+</html>

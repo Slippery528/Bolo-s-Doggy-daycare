@@ -1,0 +1,86 @@
+/* Styling for navigation */
+nav {
+  background-color: #ffbc04; /* Set the background color of the navigation bar to gold */
+  color: #fff; /* Set the text color of the navigation links to white */
+  padding: 10px; /* Add some padding around the navigation links */
+  text-align: center; /* Center-align the navigation links */
+  font-family: "Montserrat", sans-serif; /* Use the Montserrat font for the navigation */
+}
+
+nav a {
+  color: #fff; /* Set the text color of the navigation links to white */
+  text-decoration: none; /* Remove the default underline from the navigation links */
+  margin: 0 10px; /* Add some spacing between the navigation links */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Add an underline to the navigation links on hover */
+}
+
+/* Styling for main heading */
+h1 {
+  font-family: "Montserrat", sans-serif; /* Use the Montserrat font for the main heading */
+  text-align: center; /* Center-align the main heading */
+  font-size: 50px; /* Set the font size of the main heading to 50 pixels */
+  margin-top: 60px; /* Add some top margin to the main heading */
+}
+
+/* Styling for body */
+body {
+  background-color: #d2e3fc; /* Set the background color of the entire page to a light blue */
+}
+
+/* Styling for table */
+table {
+  width: 100%; /* Make the table take up the full width of the page */
+  border-collapse: collapse; /* Collapse the borders between table cells */
+  font-family: "Montserrat", sans-serif; /* Use the Montserrat font for the table content */
+  margin-top: 200px; /* Add some top margin to the table */
+}
+
+th,
+td {
+  border: 1px solid #ddd; /* Add a light gray border to the table cells */
+  padding: 8px; /* Add some padding to the table cells */
+  text-align: left; /* Align the text in the table cells to the left */
+  font-family: "Montserrat", sans-serif; /* Use the Montserrat font for the table content */
+}
+
+th {
+  background-color: #ffbc04; /* Set the background color of the table headers to gold */
+}
+
+th,
+td {
+  border-color: #000000; /* Set the border color of the table cells to black */
+}
+
+/* Styling for form */
+form {
+  font-family: "Montserrat", sans-serif; /* Use the Montserrat font for the form elements */
+  margin-top: 200px; /* Add some top margin to the form */
+}
+
+input[type="submit"] {
+  background-color: #ffbc04; /* Set the background color of the submit button to gold */
+  color: white; /* Set the text color of the submit button to white */
+  padding: 10px 20px; /* Add some padding to the submit button */
+  border: none; /* Remove the default border from the submit button */
+  border-radius: 4px; /* Add a slight border radius to the submit button */
+  cursor: pointer; /* Change the cursor to a pointer when hovering over the submit button */
+  font-size: 16px; /* Set the font size of the submit button text */
+}
+
+input[type="submit"]:hover {
+  background-color: #c48f00; /* Change the background color of the submit button on hover to a darker gold */
+}
+
+textarea {
+  height: 100px; /* Set the height of the textarea to 100 pixels */
+}
+
+label {
+  font-weight: bold; /* Make the form labels bold */
+  display: block; /* Display the labels as block-level elements */
+  margin-bottom: 5px; /* Add some bottom margin to the labels */
+}

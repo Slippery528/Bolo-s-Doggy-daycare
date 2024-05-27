@@ -1,0 +1,86 @@
+/* Style for saved items on Save for Later page */
+.saved-item {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px 0;
+  text-align: center;
+}
+
+.saved-item img {
+  display: block;
+  margin: 0 auto;
+}
+
+.saved-item h3 {
+  margin-top: 12px;
+}
+
+/* Set the background color for the entire page */
+body {
+  background-color: #d2e3fc;
+}
+
+/* Style the main heading */
+h1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 100px;
+}
+
+/* Style the section headings */
+h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+}
+
+/* Style the subsection headings */
+h3 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+}
+
+/* Style the paragraph headings */
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+}
+
+/* Style the paragraph text */
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Style the top bar */
+.top-bar {
+  background-color: #ffbc04;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Style the navigation menu */
+nav {
+  background-color: #ffbc04;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Style the navigation links */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Add a hover effect to the navigation links */
+nav a:hover {
+  text-decoration: underline;
+}

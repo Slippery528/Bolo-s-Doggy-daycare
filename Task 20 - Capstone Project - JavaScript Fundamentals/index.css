@@ -1,0 +1,195 @@
+/* Set the background color for the entire page */
+body {
+  background-color: #d2e3fc;
+}
+
+/* Style the main heading */
+h1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 100px;
+}
+
+/* Style the section headings */
+h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+}
+
+/* Style the subsection headings */
+h3 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+}
+
+/* Style the paragraph headings */
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+}
+
+/* Style the paragraph text */
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Style the top bar */
+.top-bar {
+  background-color: #ffbc04;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Style the logo container */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+/* Add some spacing between the logo image and the title */
+.logo img {
+  margin-right: 10px;
+}
+
+/* Style the navigation menu */
+nav {
+  background-color: #ffbc04;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Style the navigation links */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Add a hover effect to the navigation links */
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Center the image container */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Optionally set a specific height for the container */
+}
+
+/* Style the "Learn More" button */
+.learn-more-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffbc04; /* Gold background */
+  color: white; /* White text */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Add a hover effect to the "Learn More" button */
+.learn-more-button:hover {
+  background-color: #c48f00; /* Darker gold background on hover */
+}
+
+/* Style the "Our Services" button */
+.services-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffbc04; /* Gold background */
+  color: white; /* White text */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Add a hover effect to the "Our Services" button */
+.services-button:hover {
+  background-color: #c48f00; /* Darker gold background on hover */
+}
+
+/* Center the buttons */
+body {
+  text-align: center;
+}
+
+/* Add some spacing above the French Bulldog image */
+.french-bulldog {
+  margin-top: 30px;
+}
+
+/* Style the paragraphs container */
+.paragraphs-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow wrapping to the next line if needed */
+}
+
+/* Style the individual paragraph blocks */
+.paragraph-block {
+  width: calc(25% - 20px);
+  margin-bottom: 20px; /* Adjust spacing between blocks */
+}
+
+/* Style the testimonials container */
+.testimonials-container {
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Show the active testimonial */
+.testimonial.active {
+  display: block;
+  opacity: 1;
+}
+
+/* Style the individual testimonials */
+.testimonial {
+  border: 2px solid #ffbc04; /* Gold border */
+  background-color: #fff8dc; /* Light gold background */
+  padding: 20px; /* Add padding for spacing */
+  margin-bottom: 20px; /* Add margin for spacing between testimonials */
+  transition: opacity 0.5s ease-in-out; /* Fading transition */
+}
+
+.paragraph-block img {
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.save-for-later-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffbc04; /* Gold background */
+  color: white; /* White text */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-family: "Montserrat", sans-serif;
+}
+
+.save-for-later-button:hover {
+  background-color: #c48f00; /* Darker gold background on hover */
+  cursor: pointer;
+}
+
+.like-count {
+  display: none;
+}
